@@ -1,7 +1,7 @@
 # Code repository 
 
 - My solutions for problems I see with Daily Coding and LeetCode, other sources etc. 
-	- Binary Search Implemetation
+	- Binary Search Implementation
 	- Bubble Sort
 	- Hopes To Last Zero Index
 	- Two Pointer Lenier Search 
