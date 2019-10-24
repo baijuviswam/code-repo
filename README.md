@@ -9,3 +9,5 @@
 	- Merge Intervals
 	- Reverse Words
 	- Terinary Search 
+	- Tower Of Hanoi (TOH)
+	- Rate Limiter 
