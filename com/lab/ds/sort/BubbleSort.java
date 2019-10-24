@@ -1,3 +1,5 @@
+package com.lab.ds.sort;
+
 import java.util.Arrays;
 
 class BubbleSort{

@@ -1,3 +1,5 @@
+package com.lab.ds.search;
+
 class TerinarySearch{
 	static int arr[];
 	public static void main(String[] args) {

@@ -1,4 +1,6 @@
+package com.lab.ds.search;
 import java.util.Arrays;
+
 public class SelectionSort{
 	public static void main(String[] args) {
 		SelectionSort ss = new SelectionSort();

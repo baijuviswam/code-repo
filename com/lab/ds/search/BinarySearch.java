@@ -1,3 +1,5 @@
+package com.lab.ds.search;
+
 class BinarySearch{
 	public static void main(String[] args) {
 		int arr[] = new int[]{1,10,20, 30, 50, 90, 122, 1213};

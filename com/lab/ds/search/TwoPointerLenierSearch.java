@@ -1,3 +1,5 @@
+package com.lab.ds.search;
+
 class TwoPointerLenierSearch{
 	public static void main(String[] args) {
 		TwoPointerLenierSearch lpls = new TwoPointerLenierSearch();
