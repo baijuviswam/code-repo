@@ -3,6 +3,8 @@ import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import java.util.concurrent.TimeUnit;
 
+/** ExecutorService example **/
+
 class Processor implements Runnable{
 	int id;
 	public Processor(int id){
