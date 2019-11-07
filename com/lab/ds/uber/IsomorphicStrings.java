@@ -44,9 +44,9 @@ public class IsomorphicStrings {
        HashMap<Character, Character> table = new HashMap<Character, Character>();
     	for(int i = 0; i < s.length(); i++){
         	if (!table.containsKey(s.charAt(i))){
-            	if(table.containsValue(t.charAt(i))){
-                	return false;
-            	}
+            		if(table.containsValue(t.charAt(i))){
+                		return false;
+            		}
             		table.put(s.charAt(i), t.charAt(i));
         	} else {
             		if (t.charAt(i) != table.get(s.charAt(i))){
