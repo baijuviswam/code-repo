@@ -47,13 +47,13 @@ public class IsomorphicStrings {
             	if(table.containsValue(t.charAt(i))){
                 	return false;
             	}
-            table.put(s.charAt(i), t.charAt(i));
+            		table.put(s.charAt(i), t.charAt(i));
         	} else {
-            	if (t.charAt(i) != table.get(s.charAt(i))){
-                	return false;
-            	}
+            		if (t.charAt(i) != table.get(s.charAt(i))){
+                		return false;
+            		}
     		}        
-   		}
+   	}
    	return true; 
 	}
 }
