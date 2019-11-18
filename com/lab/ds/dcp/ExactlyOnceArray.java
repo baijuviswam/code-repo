@@ -42,11 +42,3 @@ public class ExactlyOnceArray {
 
 	}
 }
-
-
-//if the map does not contain key  then put (key, 1)
-// {2:1}, {4:1}, {6:1}, {8:1}, {10:1}
-//else 
-//{2:1} again 
-// update the value to by 1
-//map.put(2, map.get(2)+1) ==> {2,2},{6:1},
