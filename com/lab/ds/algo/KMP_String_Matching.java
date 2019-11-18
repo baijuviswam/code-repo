@@ -32,4 +32,4 @@ public class KMP_String_Matching {
         String pat = "AN"; 
         new KMP_String_Matching().KMPSearch(pat, txt); 
     } 
-}	
+}
