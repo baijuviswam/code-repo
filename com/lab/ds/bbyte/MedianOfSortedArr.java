@@ -40,7 +40,7 @@ public class MedianOfSortedArr {
 
 	public int[] merge(int[] nums1, int[] nums2, int m, int n){
 	//merge the nums1 & nums2 arrays to new numbers[]
-		 int [] numbers = new int[nums1.length+nums2.length];
+		 int [] numbers = new int[m+n];
 		 int i = 0, j = 0;
 			for (int k = 0; k < m+n; k++) {
 				if ((j >= n) || (i < m && nums1[i] <= nums2[j])) {
