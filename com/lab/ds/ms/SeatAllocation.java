@@ -6,9 +6,9 @@ public class SeatAllocation{
 		SeatAllocation sa = new SeatAllocation();
 		int n = 2;
 		String s = "1A 1C 2F";
-		System.out.println(sa.allocateFamilySeats(n, s));
+		System.out.println(sa.getFreeFamilySeatCount(n, s));
 	}
-	public int allocateFamilySeats(int n, String s){
+	public int getFreeFamilySeatCount(int n, String s){
 		int seatGrp = 0;
 		String[] strs = s.split(" ");
 		Map<Integer, Set<Character>> map = new HashMap<>();
