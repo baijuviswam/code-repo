@@ -79,7 +79,7 @@ public class GradingStudents {
 				continue;
 			}
 			int reminder = grade % 5;
-			if(reminder == 0 && (reminder%100)>3) {
+			if(reminder == 0) {
 				i++;
 				continue;
 			}
@@ -88,7 +88,7 @@ public class GradingStudents {
 			   nextMul = (grade - reminder) + 5;
 			   grades.set(i++, nextMul);
 			}else{
-				grades.set(i++, grade);
+				i++;
 			}
 		}
 		return grades;
