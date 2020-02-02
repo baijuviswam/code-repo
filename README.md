@@ -1,5 +1,9 @@
 # Code repository 
 
+## Directory Tree
+
+```
+
 code-repo/com
 └── lab
     ├── ds
@@ -116,3 +120,5 @@ code-repo/com
     └── util
         ├── ReadProperties.java
         └── credentials.properties
+        
+ ```
